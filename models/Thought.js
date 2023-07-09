@@ -7,8 +7,7 @@ const thoughtSchema = new Schema(
       type: String,
       required: true,
       minlength: 1,
-      maxlength: 280,
-      trim: true
+      maxlength: 280
     },
     createdAt: {
       type: Date,
@@ -25,10 +24,17 @@ const thoughtSchema = new Schema(
   },
   {
     toJSON: {
+      virtuals: true,
       getters: true
-    }
+    },
+    id: false,
   }
 );
+
+// get total count of friends
+thoughtSchema.virtual("reactionCount").get(function () {
+  return this.reactions.length;
+});
 
 const Thought = model('thought', thoughtSchema);
 
