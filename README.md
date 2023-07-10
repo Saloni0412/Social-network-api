@@ -8,10 +8,22 @@ This repository contains a Social Network API that allows users to interact with
 
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributing](#contributing)
-- [Tests](#tests)
+- [Technologies Used](#technologies-used)
 - [License](#license)
 - [Questions](#questions)
+
+## Technologies Used
+
+The Social Network API is built using the following technologies:
+
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+- Insomnia (for testing the API)
+
+Feel free to explore and leverage these technologies to extend and customize the functionality of the Social Network API.
+
 
 ## Installation
 
