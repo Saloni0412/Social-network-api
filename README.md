@@ -45,7 +45,7 @@ Starting with command npm start, one will have to use insomnia app to run all th
 | POST /  DELETE           | /api/users/:userId/friends/:friendId    | /api/thoughts/:thoughtId/reactions |
 
 
-The link of the walkthrough video is - [Link to the video]()
+The link of the walkthrough video is - [Link to the video](https://drive.google.com/file/d/1D4lNWz5kkT3ja4QTv-t0S-WBORkuHtIi/view)
 
 
 ## Credits
